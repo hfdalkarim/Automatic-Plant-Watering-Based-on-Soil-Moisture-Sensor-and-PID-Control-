@@ -1,0 +1,19 @@
+=== Scenario S1: 30% -> 60%, Kp = 5.0, Ki = 0.8, Kd = 0.1 ===
+Rise time t_r            : 4.13 s
+Peak value               : 77.43 % at 9.60 s
+Overshoot                : 29.06 %
+Settling time t_s (2%)   : 42.83 s
+Final moisture at 60 s   : 60.10 %
+Final error at 60 s e60  : 0.10 pp
+IAE                      : 415.9 %.s
+Pump switching events    : 5
+Undershoot after peak    : 49.10 % at 35.82 s
+--- Continuous command u_sat(t) (Figure 5) ---
+Initial command          : 150.2/255 (58.9 % duty)
+Maximum command          : 163.0/255 at 1.00 s
+Clipped to zero          : 6.21 s to 33.43 s
+Mean command, last 10 s  : 14.0/255
+Analytical steady state  : 12.5/255 (4.9 % duty), Eq. (5)
+Wrote results/S1_baseline_timeseries.csv
+Wrote results/Table4_S1_metrics.csv
+

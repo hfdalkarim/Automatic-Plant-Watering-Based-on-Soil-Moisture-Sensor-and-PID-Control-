@@ -1,0 +1,22 @@
+=== Table 5: baseline PID in four scenarios ===
+Scenario                           tr(s)   OS(%)   ts(s)     e60      IAE  Switch
+S1: 30% -> 60%                      4.13   29.06   42.83    0.10    415.9       5
+S2: 20% -> 50%                      4.08   35.95   46.95    0.63    441.9       5
+S3: 40% -> 70%                      4.19   24.21   39.73    0.28    397.2       5
+S4: S1 + 1% sensor disturbance      4.14   29.18   42.90    0.09    417.4      23
+
+=== Table 6: PID versus hysteresis ON/OFF (S1) ===
+Metric                                PID     ON/OFF
+Rise time t_r (s)                    4.13       3.65
+Peak soil moisture (%)              77.43      83.04
+Overshoot (% of setpoint)           29.06      38.40
+Settling time t_s, 2% (s)           42.83 Not reached (limit cycle 58.90-67.48%)
+Final moisture at 60 s (%)          60.10      66.82
+Final error at 60 s (pp)             0.10       6.82
+IAE (%.s)                           415.9      523.6
+Pump switching events                   5          8
+ON/OFF limit cycle for t >= 30 s: 58.90-67.48 % (mean 64.09 %)
+PID vs ON/OFF: overshoot -24.3 %, IAE -20.6 %, rise time +13.2 %
+
+Wrote results/Table5_scenarios.csv, results/Table6_PID_vs_ONOFF.csv, results/Fig6_scenarios_timeseries.csv, results/Fig7_PID_vs_ONOFF_timeseries.csv
+

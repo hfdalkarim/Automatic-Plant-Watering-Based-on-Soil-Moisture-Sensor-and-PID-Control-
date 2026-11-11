@@ -1,0 +1,10 @@
+metric,value,unit
+rise_time,4.13,s
+peak,77.43,%
+peak_time,9.60,s
+overshoot,29.06,% of setpoint
+settling_time_2pct,42.83,s
+final_moisture_60s,60.10,%
+final_error_60s,0.10,pp
+IAE,415.9,%.s
+pump_switching_events,5,-

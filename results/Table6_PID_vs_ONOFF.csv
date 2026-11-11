@@ -1,0 +1,12 @@
+metric,PID,ONOFF
+rise_time_s,4.13,3.65
+peak_pct,77.43,83.04
+overshoot_pct,29.06,38.40
+settling_time_s,42.83,Nan
+final_moisture_60s_pct,60.10,66.82
+final_error_60s_pp,0.10,6.82
+IAE_pct_s,415.9,523.6
+pump_switching_events,5,8
+onoff_limit_cycle_min_pct,,58.90
+onoff_limit_cycle_max_pct,,67.48
+onoff_limit_cycle_mean_pct,,64.09
